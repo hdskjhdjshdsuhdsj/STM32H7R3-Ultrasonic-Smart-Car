@@ -1,0 +1,30 @@
+# Keil / MDK 编译输出目录
+MDK-ARM/*/TANK5_TEST_*/
+MDK-ARM/*/DebugConfig/
+
+# 编译中间文件与产物
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.map
+*.lst
+*.dep
+*.lnp
+*.iex
+*.cdb
+*.sct.bak
+JLinkLog.txt
+*.log
+
+# Keil 用户本地配置
+*.uvguix.*
+*.uvgui.*
+*.uvoptx.bak
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
